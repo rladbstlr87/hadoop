@@ -26,4 +26,4 @@
 ```shell
 hadoop jar ~/hadoop-3.3.6/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar -input /input/text.txt -output /output/wordcount -mapper /home/ubuntu/damf2/hadoop/0.wordcount/mapper.py -reducer /home/ubuntu/damf2/hadoop/0.wordcount/reducer.py
 ```
-- hadoop jar ~/hadoop-3.3.6/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar -input
+- hadoop jar ~/hadoop-3.3.6/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar -input 원본데이터경로 -output 웹HDFS폴더경로/폴더명 -mapper 매퍼위치 -reducer 리듀서위치
